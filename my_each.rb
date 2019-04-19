@@ -5,6 +5,7 @@ def my_each(array_name) # put argument(s) here
  yield array_name[i]
  i += 1 
  end 
+ array_name
 end
 collection=[1,2,3,4]
 my_each(collection) do |i| 
